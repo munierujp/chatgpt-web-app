@@ -1,10 +1,11 @@
 /**
  * @see https://web.dev/customize-install/
+ * @returns {boolean} whether page has launched in standalone mode
  */
 const isStandalone = () => {
-  return navigator.standalone ?? window.matchMedia('(display-mode: standalone)').matches
+  return window.navigator.standalone ?? window.matchMedia('(display-mode: standalone)').matches
 }
 
 if (isStandalone()) {
-  location.href = 'https://chat.openai.com/'
+  window.location.href = 'https://chat.openai.com/'
 }
