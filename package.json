@@ -2,6 +2,9 @@
   "name": "chatgpt-web-app",
   "version": "0.1.0",
   "description": "Web app for ChatGPT",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "devDependencies": {
     "@munierujp/eslint-config": "7.0.2",
     "eslint": "8.35.0"
