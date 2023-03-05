@@ -1,5 +1,8 @@
 module.exports = {
   extends: [
-    '@munierujp/eslint-config'
-  ]
+    '@munierujp'
+  ],
+  env: {
+    browser: true
+  }
 }
