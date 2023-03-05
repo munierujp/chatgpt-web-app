@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Web app for ChatGPT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "devDependencies": {
     "@munierujp/eslint-config": "7.0.2",
