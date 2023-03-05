@@ -1,3 +1,5 @@
+[![lint](https://github.com/munierujp/chatgpt-web-app/actions/workflows/lint.yml/badge.svg)](https://github.com/munierujp/chatgpt-web-app/actions/workflows/lint.yml)
+
 # ChatGPT Web App
 
 Web app for ChatGPT
