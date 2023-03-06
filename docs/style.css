@@ -2,3 +2,10 @@ body {
   background-color: #343541;
   color: #ECECF1;
 }
+
+#main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
