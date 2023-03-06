@@ -10,6 +10,11 @@ body {
   margin-top: 80px;
 }
 
+#screenshot {
+  width: 300px;
+  max-width: 100%;
+}
+
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
