@@ -11,8 +11,8 @@ body {
 }
 
 #screenshot {
-  width: 300px;
   max-width: 100%;
+  height: auto;
 }
 
 .text-center {
