@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "description": "Web app for ChatGPT",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint": "npm-run-all -p lint:*",
+    "lint:html": "markuplint \"**/*.html\"",
+    "lint:js": "eslint ."
   },
   "devDependencies": {
     "@munierujp/eslint-config": "7.0.2",
-    "eslint": "8.36.0"
+    "eslint": "8.36.0",
+    "markuplint": "3.4.0",
+    "npm-run-all2": "6.0.4"
   }
 }
