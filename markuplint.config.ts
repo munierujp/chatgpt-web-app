@@ -1,4 +1,4 @@
-import { Config } from '@markuplint/ml-config'
+import {Config} from '@markuplint/ml-config'
 
 // https://markuplint.dev/docs/configuration
 const config: Config = {
