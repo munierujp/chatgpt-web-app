@@ -8,7 +8,7 @@
     "lint:js": "eslint ."
   },
   "devDependencies": {
-    "@munierujp/eslint-config": "8.0.0",
+    "@munierujp/eslint-config": "8.0.1",
     "eslint": "8.39.0",
     "markuplint": "3.8.0",
     "npm-run-all2": "6.0.5"
