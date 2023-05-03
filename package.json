@@ -4,7 +4,7 @@
   "description": "Web app for ChatGPT",
   "scripts": {
     "lint": "npm-run-all -p lint:*",
-    "lint:html": "markuplint --config=markuplint.config.ts \"**/*.html\"",
+    "lint:html": "markuplint \"**/*.html\"",
     "lint:js": "eslint ."
   },
   "devDependencies": {
