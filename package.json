@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@munierujp/eslint-config": "14.0.0",
-    "eslint": "8.40.0",
+    "eslint": "8.41.0",
     "markuplint": "3.10.0",
     "npm-run-all2": "6.0.5"
   }
