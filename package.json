@@ -11,6 +11,6 @@
     "@munierujp/eslint-config": "19.0.0",
     "eslint": "8.50.0",
     "markuplint": "3.13.0",
-    "npm-run-all2": "6.0.6"
+    "npm-run-all2": "6.1.0"
   }
 }
